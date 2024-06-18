@@ -17,7 +17,7 @@
         <p class="card-text">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
       </div>
       <div class="card-footer">
-        <a href="#" class="btn btn-dark">Érdekel</a>
+        <a @click="click(2)" class="btn btn-dark">Érdekel</a>
       </div>
     </div>
     <div class="card">
@@ -99,7 +99,7 @@
 
 <script setup>
 
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import axios, { Axios } from 'axios';
 import { useRouter } from 'vue-router';
 import dataservice from '../services/dataservice.js';
@@ -122,7 +122,7 @@ const click = async (id) => {
     console.log(serviceName.value, servicePrice.value);
   const posted = await axios.post("http://127.0.0.1:8000/api/current",
     {
-      user_id: 1,
+      user_id: user_id.value,
       service_name: serviceName.value,
       price: servicePrice.value
     },
@@ -141,6 +141,20 @@ console.log("error");
 console.log(posted);
 }
 
+async function getUserId() {
+  try {
+    const response = await axios.get("/data");
+    console.log(response.data.data.current_user_id);
+    return response.data.data.current_user_id;
+  } catch (error) {
+    return Promise.reject(error);
+  }
+}
+const user_id = ref();
+onMounted(async () => {
+  const userId = await getUserId();
+  user_id.value = userId;
+});
 </script>
 
 <style scoped></style>

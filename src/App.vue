@@ -35,6 +35,10 @@ import { RouterView } from "vue-router";
             <!-- <a class="nav-link" href="#">Link</a> -->
             <router-link class="nav-link" to="/login">Bejelentkezés</router-link>
           </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#">Link</a> -->
+            <router-link class="nav-link" to="/myServices">Szolgáltatásaim</router-link>
+          </li>
         </ul>
       </div>
     </div>
