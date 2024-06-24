@@ -7,9 +7,9 @@
             <img src="/src/pics/s.JPG" class="card-img-top" alt="S-es köröm">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Műköröm S-es méret</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">6.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a @click="click(1)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -23,9 +23,9 @@
             <img src="/src/pics/m.JPG" class="card-img-top" alt="M-es köröm">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Műköröm M-es méret</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">7.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a @click="click(2)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -39,9 +39,9 @@
             <img src="/src/pics/l.JPG" class="card-img-top" alt="L-es köröm">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Műköröm L-es méret</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">8.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a @click="click(3)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -55,9 +55,9 @@
             <img src="/src/pics/xl.JPG" class="card-img-top" alt="Xl-es köröm">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Műköröm XL-es méret</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">9.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a @click="click(4)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -71,9 +71,9 @@
             <img src="/src/pics/reteges.JPG" class="card-img-top" alt="Acrylicgel körmök">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Acrylicgel körmök</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">12.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a @click="click(5)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -87,9 +87,9 @@
             <img src="/src/pics/festes.JPG" class="card-img-top" alt="Festés">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Egyedi festés</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">11.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a  @click="click(6)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -100,7 +100,7 @@
       <div class="col">
         <div class="card h-100">
           <div class="card-img-top-wrapper">
-            <img src="..." class="card-img-top" alt="Francia körmök">
+            <img src="/src/pics/fekete-piros.JPG" class="card-img-top" alt="Francia körmök">
           </div>
           <div class="card-body d-flex flex-column">
             <div class="card-content" style=" color: black; padding: 1rem;">
@@ -116,12 +116,12 @@
       <div class="col">
         <div class="card h-100">
           <div class="card-img-top-wrapper">
-            <img src="..." class="card-img-top" alt="Egyedi kövezés">
+            <img src="/src/pics/koves.JPG" class="card-img-top" alt="Egyedi kövezés">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Kövezett körmök</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">10.000 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a  @click="click(8)" class="btn btn-dark btn-stylish">Érdekel</a>
@@ -135,9 +135,9 @@
             <img src="/src/pics/gellakk.JPG" class="card-img-top" alt="Sima géllakk">
           </div>
           <div class="card-body d-flex flex-column">
-            <div class="card-content" style="background-color: black; color: white; padding: 1rem;">
+            <div class="card-content" style=" color: black; padding: 1rem;">
               <h5 class="card-title">Sima géllakkozás</h5>
-              <p class="card-text flex-grow-1">Majd ide leírom mennyibe kerül és nagyjából mit takar</p>
+              <p class="card-text flex-grow-1">5.500 Ft</p>
             </div>
             <div class="mt-auto text-center">
               <a  @click="click(9)" class="btn btn-dark btn-stylish">Érdekel</a>

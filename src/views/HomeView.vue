@@ -11,17 +11,17 @@ import { ref, onMounted } from "vue";
           <h4>Kapcsolat</h4>
           <ul>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://hu.wikipedia.org/wiki/Oroszl%C3%A1n" target="_blank">
                 <i class="fab fa-instagram"></i> Instagram
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://hu.wikipedia.org/wiki/Oroszl%C3%A1n" target="_blank">
                 <i class="fab fa-facebook"></i> Facebook
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://hu.wikipedia.org/wiki/Oroszl%C3%A1n" target="_blank">
                 <i class="fab fa-tiktok"></i> TikTok
               </a>
             </li>
@@ -31,12 +31,12 @@ import { ref, onMounted } from "vue";
           <h4>MarilyNails</h4>
           <ul>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://hu.wikipedia.org/wiki/Oroszl%C3%A1n" target="_blank">
                 <i class="fas fa-globe"></i> Weboldal
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://hu.wikipedia.org/wiki/Oroszl%C3%A1n" target="_blank">
                 <i class="fab fa-tiktok"></i> TikTok
               </a>
             </li>
